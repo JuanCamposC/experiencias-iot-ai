@@ -82,7 +82,7 @@ Puedes ejecutar el sistema utilizando el script principal `main.py` o el archivo
 
 1.  **Capturar Rostros**:
     *   Ejecuta `main.py` y selecciona la opción para capturar rostros.
-    *   Ingresa un ID numérico para la persona.
+    *   Ingresa el nombre de la persona.
     *   El sistema tomará varias fotos. Asegúrate de mover ligeramente la cabeza para capturar diferentes ángulos.
 2.  **Entrenar Modelo**:
     *   Una vez que tengas suficientes imágenes (idealmente de varias personas), selecciona la opción para entrenar el modelo.
@@ -95,4 +95,3 @@ Puedes ejecutar el sistema utilizando el script principal `main.py` o el archivo
 
 - Asegúrate de tener una cámara web conectada y funcionando.
 - La calidad del reconocimiento dependerá de la calidad y cantidad de las imágenes de entrenamiento.
-- La carpeta `__pycache__/` es generada automáticamente por Python y no necesita ser incluida en el control de versiones (generalmente se añade al `.gitignore`).

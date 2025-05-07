@@ -9,11 +9,11 @@ Sensores/
 ├── SensorHumedad/
 │   └── SensorHumedad.ino  # Código para el sensor de humedad de suelo y bot de Telegram
 ├── SensorSala/
-│   ├── alerta.php         # Script PHP para manejar alertas (posiblemente no usado directamente por ESP)
+│   ├── alerta.php         # Script PHP para manejar alertas
 │   ├── api.php            # Endpoint API para recibir datos del sensor de sala
-│   ├── datos.php          # Script PHP para mostrar datos (posiblemente en una web)
+│   ├── datos.php          # Script PHP para mostrar datos
 │   ├── db.php             # Script PHP para la conexión a la base de datos
-│   ├── index.php          # Página principal para visualizar datos del sensor de sala
+│   ├── index.php          # Página principal para visualizar datos del sensor de sala (En Web)
 │   └── sala_servi/
 │       └── sala_servi.ino # Código para el sensor de temperatura/humedad (DHT11)
 └── README.md              # Este archivo
@@ -53,9 +53,19 @@ Este proyecto utiliza un sensor de temperatura y humedad DHT11 conectado a un ES
 
 ### 🌐 Configuración y Uso (Servidor Web - PHP)
 
-1.  **Base de Datos**: 
+1.  **Base de Datos**:
+    **Estructura Base de Datos**
+
+    -**Nombre base de datos**: sensores
+    -**Nombre tabla**: datos_dht
+    -**Atributos**:
+        -**id**: int(11)
+        -**temperatura**: float
+        -**humedad**: float
+        -**fecha**: datetime
+
     - Configura una base de datos (ej. MySQL).
-    - Crea una tabla para almacenar los datos de temperatura y humedad (ej. `CREATE TABLE lecturas (id INT AUTO_INCREMENT PRIMARY KEY, temperatura FLOAT, humedad FLOAT, timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP);`).
+    - Crea una tabla para almacenar los datos de temperatura y humedad (ej. `CREATE TABLE datos_dht (id INT AUTO_INCREMENT PRIMARY KEY, temperatura FLOAT, humedad FLOAT, fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP);`).
     - Actualiza los detalles de conexión a la base de datos en `db.php`.
 2.  **Subir Archivos PHP**: Sube los archivos `api.php`, `datos.php`, `db.php`, y `index.php` a tu servidor web en la ruta que configuraste en el ESP8266.
 3.  **Probar**: 

@@ -27,21 +27,21 @@ reconocimiento de mano/
 
 ### 2. Crear un Entorno Virtual
 
-Se recomienda crear un entorno virtual. Si ya tienes la carpeta `recono/` de un uso anterior, puedes activarla. Si no, créala:
+Se recomienda crear un entorno virtual. Si ya tienes la carpeta `venv/` de un uso anterior, puedes activarla. Si no, créala:
 
 ```bash
-python -m venv recono
+python -m venv venv
 ```
 
 ### 3. Activar el Entorno Virtual
 
 - **Windows**:
   ```bash
-  recono\Scripts\activate
+  venv\Scripts\activate
   ```
 - **Linux/Mac**:
   ```bash
-  source recono/bin/activate
+  source venv/bin/activate
   ```
 
 ### 4. Instalar Dependencias
@@ -67,4 +67,3 @@ Esto abrirá una ventana mostrando la imagen de la cámara. Si una mano es visib
 
 - Asegúrate de tener una cámara web conectada y funcionando.
 - MediaPipe descargará automáticamente los modelos necesarios la primera vez que se ejecute.
-- Las carpetas `recono/` (entorno virtual) y `__pycache__/` (caché de Python) son generadas localmente y usualmente no se incluyen en el control de versiones.

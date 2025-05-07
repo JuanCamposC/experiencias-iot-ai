@@ -70,7 +70,7 @@ Sensor de humedad de suelo conectado a un ESP8266. El dispositivo se comunica co
 
 ---
 
-## 🔧 Instrucciones generales
+## 🔧 Instrucciones generales (para reconocimiento facial y de mano)
 
 ### 1. Crear un entorno virtual
 
@@ -103,7 +103,6 @@ pip install -r requirements.txt
 
 ## 📝 Notas adicionales
 
-- Este repositorio **no incluye entornos virtuales ni carpetas cache** (`__pycache__/`) para mantenerlo limpio y portable.
 - Se recomienda usar `pythonw` o archivos `.bat` para ejecutar interfaces sin consola visible, especialmente en Windows.
 - Puedes adaptar estos proyectos fácilmente para fines educativos, demostraciones técnicas o prototipos personales.
 

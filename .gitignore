@@ -5,5 +5,3 @@ __pycache__/
 *.pyo
 .DS_Store
 Thumbs.db
-.theia/
-launch.json

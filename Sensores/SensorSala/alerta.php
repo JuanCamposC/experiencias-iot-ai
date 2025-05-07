@@ -6,8 +6,8 @@ if (isset($_GET['temperatura'])) {
     die("No se ha recibido temperatura.");
 }
 
-$token = "8183400520:AAEay160ajLIkX9a6rzN4n6OKy2lhtv0ANI"; // reemplaza con tu token
-$chat_id = "7678046592"; // tu chat o el de un grupo
+$token = "BOT_TOKEN"; // reemplaza con tu token
+$chat_id = "CHAT_ID"; // tu chat o el de un grupo
 
 // Formateamos el mensaje para incluir la temperatura
 $mensaje = "🚨 ¡Alerta! La temperatura ha superado el límite crítico. La temperatura actual es: $temperatura °C";

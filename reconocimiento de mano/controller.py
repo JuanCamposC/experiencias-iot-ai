@@ -1,6 +1,8 @@
 import pyfirmata2
 
-comport = 'COM9'
+comport = 'COM9' # Cambia esto al puerto correcto de tu Arduino
+                 # Puedes encontrar el puerto correcto en el IDE de Arduino o en el Administrador de Dispositivos de Windows
+                 # o en /dev/tty* en Linux/MacOS
 board = pyfirmata2.Arduino(comport)
 
 led_1 = board.get_pin('d:2:o')  # LED para dedo 1

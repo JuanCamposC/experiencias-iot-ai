@@ -3,11 +3,11 @@
 #include <UniversalTelegramBot.h>
 
 // WiFi
-const char* ssid = "iPhone de Juan";
-const char* password = "hola12345";
+const char* ssid = "NOMBRESSID"; // Reemplazar con el nombre de tu red WiFi
+const char* password = "CONTRASEÑA"; // Reemplazar con la contraseña de tu red WiFi
 
 // Telegram
-#define BOT_TOKEN "8183400520:AAEay160ajLIkX9a6rzN4n6OKy2lhtv0ANI"
+#define BOT_TOKEN "BOT_TOKEN" // Reemplazar con el token de tu bot
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOT_TOKEN, client);
 

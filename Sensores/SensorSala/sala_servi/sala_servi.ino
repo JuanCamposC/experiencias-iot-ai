@@ -8,11 +8,11 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 // Credenciales WiFi
-const char* ssid = "iPhone de Juan";
-const char* password = "hola12345";
+const char* ssid = "NOMBRESSID"; // Reemplaza con tu SSID
+const char* password = "CONTRASEÑA"; // Reemplaza con tu contraseña
 
 // Servidor para enviar datos
-const char* serverName = "http://sensores.lacasadedios.cl/api.php";
+const char* serverName = "http://PAGINAWEB/api.php"; // Reemplaza con la URL de tu servidor con PHP
 
 // Rangos óptimos
 float tempMin = 18.0;

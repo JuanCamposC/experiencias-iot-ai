@@ -111,6 +111,6 @@ pip install -r requirements.txt
 
 ## 👨‍💻 Autor
 
-Proyecto desarrollado por Juan Campos Castro estudiante de Ingeniería en Computación e Informática — Universidad Andrés Bello (UNAB), 2025.
+Proyecto desarrollado por Juan Campos Castro estudiante de Ingeniería en Computación e Informática — Universidad Andrés Bello (UNAB),, 2025.
 
 ---

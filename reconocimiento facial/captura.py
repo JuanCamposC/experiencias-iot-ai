@@ -12,7 +12,7 @@ person_path = os.path.join(data_path, person_name)
 os.makedirs(person_path, exist_ok=True)
 print(f'Guardando rostros en: {person_path}')
 
-cap = cv2.VideoCapture(1, cv2.CAP_DSHOW)
+cap = cv2.VideoCapture(0, cv2.CAP_DSHOW) # 0 es la cámara por defecto, camara 1 es la segunda cámara
 face_classifier = get_face_classifier()
 count = 0
 

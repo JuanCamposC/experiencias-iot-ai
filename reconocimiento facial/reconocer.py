@@ -7,7 +7,7 @@ people = os.listdir(data_path)
 model = cv2.face.LBPHFaceRecognizer_create()
 model.read('model/lbph_model.xml')
 
-cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+cap = cv2.VideoCapture(0, cv2.CAP_DSHOW) # 0 es la cámara por defecto, camara 1 es la segunda cámara
 face_classifier = get_face_classifier()
 
 while True:

@@ -4,7 +4,7 @@ from cvzone.HandTrackingModule import HandDetector
 
 detector = HandDetector(detectionCon=0.8, maxHands=1)
 
-video = cv2.VideoCapture(0)
+video = cv2.VideoCapture(0) # 0 es la cámara por defecto, camara 1 es la segunda cámara
 
 while True:
     ret, frame = video.read()

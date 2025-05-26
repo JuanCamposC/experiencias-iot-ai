@@ -1,5 +1,8 @@
 # 🤖 Experiencias con IA, Visión por Computador y Sensores IoT
 
+> **⚠️ IMPORTANTE: Versión de Python Requerida**
+> Este proyecto fue desarrollado y probado íntegramente con **Python 3.11.0**. Para asegurar la correcta ejecución y compatibilidad con todas las librerías, es crucial utilizar esta versión específica.
+
 Este repositorio agrupa tres experiencias prácticas desarrolladas con Python y tecnologías de inteligencia artificial e IoT. Cada proyecto está contenido en su propia carpeta e incluye código, dependencias y estructura organizada para su ejecución.
 
 ## 📁 Estructura del repositorio
@@ -104,7 +107,7 @@ pip install -r requirements.txt
 ## 📝 Notas adicionales
 
 - Se recomienda usar `pythonw` o archivos `.bat` para ejecutar interfaces sin consola visible, especialmente en Windows.
-- Puedes adaptar estos proyectos fácilmente para fines educativos, demostraciones técnicas o prototipos personales.
+- Puedes adaptar estos proyectos según tus necesidades, modificando el código y las configuraciones de hardware y software pertinentes.
 
 ---
 
